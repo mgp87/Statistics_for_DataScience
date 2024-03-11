@@ -4,9 +4,9 @@
 
 | Category              | Type     | Description                                                                    | Example                |
 | --------------------- | -------- | ------------------------------------------------------------------------------ | ---------------------- |
-| Numerical             | Interval | Numeric scale with meaningful intervals                                        | Temperature in Celsius |
-| Numerical             | Ratio    | Numeric scale with a true zero point                                           | Height                 |
-| Numerical             | Discrete | Countable number of values                                                     | Number of students     |
+| Numerical (numbers)   | Interval | Numeric scale with meaningful intervals                                        | Temperature in Celsius |
+| Numerical (numbers)   | Ratio    | Numeric scale with a true zero point                                           | Height                 |
+| Numerical (numbers)   | Discrete | Countable number of values                                                     | Number of students     |
 | Categorical (labeled) | Ordinal  | Categories with a natural order, discrete, no necessarily meaningful intervals | Letter grades          |
 | Categorical (labeled) | Nominal  | Categories without a natural order, discrete                                   | Music genres           |
 
