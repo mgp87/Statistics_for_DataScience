@@ -60,14 +60,14 @@ Bar plots can show Categorical (nominal or ordinal) and numerical (discrete) dat
 Box-and-whisker plots can show numerical (interval or ratio) data.
 [Rust file](/Data_visualization/box-plot/src/main.rs)
 
-![Box-and-whisker Plot Example](/Data_visualization/box-plot/images/box-plot.png)
+![Box Plot Example](/Data_visualization/box-plot/images/box-plot.png)
 
 ##### Histograms
 
 Histograms can show numerical data, they are just like bar plots but categories are binned or bucketed.
 [Rust file](/Data_visualization/histogram/src/main.rs)
 
-![Histogram Plot](/Data_visualization/histogram/images/histogram.png)
+![Histogram Plot Example](/Data_visualization/histogram/images/histogram.png)
 
 ##### Pie charts
 
@@ -76,3 +76,7 @@ There is a condition on data to be able to use pie charts, the data must sum up 
 [Rust file](/Data_visualization/pie-chart/src/main.rs)
 
 ![Pie Chart Example](/Data_visualization/pie-chart/images/pie-chart.png)
+
+##### Lines vs bars
+
+Lines can be used when we have many bars for the sake of simplicity and clarity (better resolution) or in-graph comparisons.
