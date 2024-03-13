@@ -57,4 +57,4 @@ Bar plots can show Categorical (nominal or ordinal) and numerical (discrete) dat
 
 Box-and-whisker plots can show numerical (interval or ratio) data.
 
-![Box-and-whisker Plot Example](/Data_visualization/box-and-whisker/images/box-plot.png)
+![Box-and-whisker Plot Example](/Data_visualization/box-plot/images/box-plot.png)
