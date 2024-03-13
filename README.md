@@ -51,4 +51,4 @@
 ##### Bar plots
 
 Bar plots can show Categorical (nominal or ordinal) and numerical (discrete) data.
-![Bar Plot Example](/README_imgs/barplotexample.png)
+![Bar Plot Example](/Data_visualization/bar_plot/images/bar-plot.png)
