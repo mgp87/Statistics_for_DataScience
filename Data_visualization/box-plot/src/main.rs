@@ -3,9 +3,7 @@ use plotters::data::fitting_range;
 use plotters::prelude::*;
 use std::collections::BTreeMap;
 use std::collections::HashMap;
-use std::env;
-use std::fs;
-use std::io::{self, prelude::*, BufReader};
+use std::io::{self, prelude::*};
 
 fn read_data<BR: BufRead>(reader: BR) -> HashMap<(String, String), Vec<f64>> {
     let mut ds = HashMap::new();
@@ -28,8 +26,6 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let root = root.margin(5, 5, 5, 5);
 
     let (upper, lower) = root.split_vertically(512);
-
-    let args: Vec<String> = env::args().collect();
 
     let ds = read_data(io::Cursor::new(get_data()));
     let dataset: Vec<(String, String, Quartiles)> = ds
