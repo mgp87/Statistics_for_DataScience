@@ -1,7 +1,7 @@
 use plotters::prelude::*;
 use rand::Rng;
 
-fn main() {
+fn main() -> Result<(), Box<dyn std::error::Error>> {
     let data = make_data(10);
     let root_area = BitMapBackend::new("images/bar-plot.png", (800, 600)).into_drawing_area();
     root_area.fill(&WHITE).unwrap();
@@ -22,7 +22,8 @@ fn main() {
         bar
     }))
     .unwrap();
-    root_area.present().unwrap();
+    root_area.present()?;
+    Ok(())
 }
 
 fn make_data(elems: i32) -> Vec<i32> {
