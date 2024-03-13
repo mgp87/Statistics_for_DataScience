@@ -61,3 +61,10 @@ Box-and-whisker plots can show numerical (interval or ratio) data.
 [Rust file](/Data_visualization/box-plot/src/main.rs)
 
 ![Box-and-whisker Plot Example](/Data_visualization/box-plot/images/box-plot.png)
+
+##### Histograms
+
+Histograms can show numerical data, they are just like bar plots but categories are binned or bucketed.
+[Rust file](/Data_visualization/histogram/src/main.rs)
+
+![Histogram Plot](/Data_visualization/histogram/images/histogram.png)
