@@ -41,3 +41,7 @@
 ```math
 \hat{\mu}, \hat{\beta}, \hat{\sigma}^2
 ```
+
+```math
+\bar{x}, \beta, s^2
+```
