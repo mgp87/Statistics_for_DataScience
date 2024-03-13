@@ -10,7 +10,7 @@ fn main() {
         .set_label_area_size(LabelAreaPosition::Left, 50)
         .set_label_area_size(LabelAreaPosition::Bottom, 50)
         .caption("Bar Plot Demo", ("sans-serif", 50))
-        .build_cartesian_2d((0..10).into_segmented(), 0..60)
+        .build_cartesian_2d((1..10).into_segmented(), 0..55)
         .unwrap();
 
     ctx.configure_mesh().draw().unwrap();
