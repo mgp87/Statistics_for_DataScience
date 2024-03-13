@@ -56,7 +56,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     let mut chart = ChartBuilder::on(&upper)
         .x_label_area_size(40)
         .y_label_area_size(80)
-        .caption("Ping Boxplot", ("sans-serif", 20))
+        .caption("Box Plot Demo", ("sans-serif", 50))
         .build_cartesian_2d(
             values_range.start - 1.0..values_range.end + 1.0,
             host_list[..].into_segmented(),
