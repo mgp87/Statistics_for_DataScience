@@ -33,15 +33,11 @@
 ###### Population params:
 
 ```math
-\mu
-\beta
-\sigma^2
+\mu, \beta, \sigma^2
 ```
 
 ###### Sample params:
 
 ```math
-\hat{mu}
-\hat{beta}
-\hat{sigma^2}
+\hat{\mu}, \hat{\beta}, \hat{\sigma}^2
 ```
