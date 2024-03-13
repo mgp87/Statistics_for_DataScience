@@ -45,3 +45,10 @@
 ```math
 \bar{x}, \beta, s^2
 ```
+
+#### Data visualization
+
+##### Bar plots
+
+Bar plots can show Categorical (nominal or ordinal) and numerical (discrete) data.
+![Bar Plot Example](/README_imgs/barplotexample.png)
