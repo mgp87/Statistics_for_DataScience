@@ -68,3 +68,11 @@ Histograms can show numerical data, they are just like bar plots but categories 
 [Rust file](/Data_visualization/histogram/src/main.rs)
 
 ![Histogram Plot](/Data_visualization/histogram/images/histogram.png)
+
+##### Pie charts
+
+Pie charts can show nominal, ordinal or discrete data representing a percentage of the whole for each category in a visual way since they are contained in a circle.
+There is a condition on data to be able to use pie charts, the data must sum up 1 (or 100%).
+[Rust file](/Data_visualization/pie-chart/src/main.rs)
+
+![Pie Chart Example](/Data_visualization/pie-chart/images/pie-chart.png)
