@@ -10,11 +10,12 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
         .margin(5)
         .x_label_area_size(50)
         .y_label_area_size(50)
-        .build_cartesian_2d((0u32..10u32).into_segmented(), 0u32..10u32)?;
+        .build_cartesian_2d((0u32..10u32).into_segmented(), 0u32..5u32)?;
 
     chart
         .configure_mesh()
         .disable_x_mesh()
+        .bold_line_style(WHITE.mix(0.3))
         .y_desc("Count")
         .x_desc("Bucket")
         .draw()?;
@@ -33,7 +34,7 @@ fn make_data(elems: u32) -> Vec<u32> {
     let mut data = vec![];
     let mut rng = rand::thread_rng();
     for _i in 0..elems {
-        data.push(rng.gen_range(0..50));
+        data.push(rng.gen_range(0..11));
     }
-    return data;
+    data
 }
