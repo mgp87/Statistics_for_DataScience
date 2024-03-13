@@ -9,7 +9,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
 
     let dimensions = root.dim_in_pixel();
     let center = (dimensions.0 as i32 / 2, dimensions.1 as i32 / 2);
-    let radius = 300.0;
+    let radius = 250.0;
     let sizes = vec![70.0, 35.0];
     let colors = vec![RED, YELLOW];
     let labels = vec!["Rust", "Python"];
